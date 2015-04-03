@@ -1,0 +1,15 @@
+# -*- mode: snippet -*-
+#key: rcci
+#name: Create React Component with Import
+# --
+import React from 'react'
+
+export class $1 extends React.Component {
+
+  render() {
+    return(
+      ${2:<div>$3</div>}
+    );
+  }
+  
+}

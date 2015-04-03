@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+#key: rpt
+#name: React propTypes
+# --
+propTypes: {
+  ${1:prop1}: React.PropTypes.${2:string}${3:.isRequired},
+},

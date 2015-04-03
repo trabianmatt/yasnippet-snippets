@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+#key: red
+#name: Reduce
+# --
+reduce((${1:previousValue}, ${2:currentValue}) => {
+  $4
+}, ${3:initialValue})

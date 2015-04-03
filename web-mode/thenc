@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+#key: thenc
+#name: Promise.then.catch
+# --
+then(($1) => {
+  $2
+}).catch((err) => {
+  $3
+});

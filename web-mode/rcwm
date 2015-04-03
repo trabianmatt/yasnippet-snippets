@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+#key: rcwm
+#name: React componentWillMount
+# --
+componentWillMount() {
+  $1
+}

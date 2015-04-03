@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+#key: rcce
+#name: Create React Component with Export
+# --
+export class $1 extends React.Component {
+
+  render() {
+    return(
+      ${2:<div>$3</div>}
+    );
+  }
+  
+}

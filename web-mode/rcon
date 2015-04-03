@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+#key: rcon
+#name: React add constructor
+# --
+constructor(props) {
+  super(props);
+  ${1:this.state = {
+    ${2:key1}: ${3:val1},
+  }};
+}

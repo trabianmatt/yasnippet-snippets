@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+#key: rs
+#name: React statics
+# --
+statics: {
+  ${1:key1}: ${2:val1},
+},

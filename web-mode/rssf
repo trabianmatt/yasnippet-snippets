@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+#key: rssf
+#name: React setState as function
+# --
+this.setState((state, props) => ({${1:key}: ${2:val}}));

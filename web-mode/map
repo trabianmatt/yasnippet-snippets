@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+#key: map
+#name: Map
+# --
+map((${1:currentValue}) => ${2:{
+  $3
+}})

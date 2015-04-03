@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+#key: rscu
+#name: React shouldComponentUpdate
+# --
+shouldComponentUpdate(nextProps, nextState) {
+  ${1:return ${2:nextProps} !== ${3:this.props};}
+},

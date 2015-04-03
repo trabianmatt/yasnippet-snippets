@@ -1,0 +1,15 @@
+# -*- mode: snippet -*-
+#key: rccie
+#name: Create React Component with Import and Export
+# --
+import React from 'react'
+
+export default class $1 extends React.Component {
+
+  render() {
+    return(
+      ${2:<div>$3</div>}
+    );
+  }
+  
+}

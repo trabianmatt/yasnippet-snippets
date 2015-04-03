@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+#key: rss
+#name: React setState
+# --
+this.setState({
+  ${1:key}: ${2:val},
+});

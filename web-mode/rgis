@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+#key: rgis
+#name: React getInitialState
+# --
+getInitialState() {
+  return {
+    ${1:key1}: ${2:val1},
+  };
+},

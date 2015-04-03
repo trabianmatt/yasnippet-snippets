@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+#key: rcdm
+#name: React componentDidMount
+# --
+componentDidMount() {
+  $1
+}

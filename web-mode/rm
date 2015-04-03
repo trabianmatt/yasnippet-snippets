@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+#key: rm
+#name: React method
+# --
+${1:methodName}() {
+  $2
+}

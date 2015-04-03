@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+#key: rcwu
+#name: React componentWillUpdate
+# --
+componentWillUpdate(nextProps, nextState) {
+  $1
+}

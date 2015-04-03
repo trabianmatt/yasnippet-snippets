@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+#key: rrs
+#name: React replaceState
+# --
+this.replaceState({
+  ${1:key}: ${2:val},
+});

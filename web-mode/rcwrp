@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+#key: rcwrp
+#name: React componentWillReceiveProps
+# --
+componentWillReceiveProps(nextProps) {
+  ${1:this.setState({
+    ${2:key}: ${3:val}
+  });}
+}

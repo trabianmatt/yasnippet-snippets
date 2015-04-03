@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+#key: catch
+#name: Promise.catch
+# --
+catch((err) => {
+  $1
+})
