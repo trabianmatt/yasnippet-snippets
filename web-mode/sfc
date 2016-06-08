@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+#key: sfc
+#name: Create stateless functional component
+# --
+const $1 = (${2:{ $3 }}) => (
+  $4
+);
