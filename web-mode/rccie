@@ -2,9 +2,13 @@
 #key: rccie
 #name: Create React Component with Import and Export
 # --
-import React from 'react';
+import React, { Component, PropTypes } from 'react';
 
-export default class $1 extends React.Component {
+export default class $1 extends Component {
+
+  static propTypes = {
+    $4
+  };
 
   render() {
     return (
